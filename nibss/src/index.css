@@ -165,3 +165,6 @@ html {
   font-optical-sizing: auto;
   font-style: normal;
 }
+.centre-display{
+  text-align: center;
+}

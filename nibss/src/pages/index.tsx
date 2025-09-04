@@ -5,6 +5,11 @@
 import selfie from '@/assets/picture.svg'
 import button1 from '@/assets/button1.svg'
 import button2 from '@/assets/button2.svg'
+import hotel from '@/assets/hotel.svg'
+import yoga from '@/assets/yoga.svg'
+import mobileapp from '@/assets/mobileapp.svg'
+import buttonimg from '@/assets/button.svg'
+import comp from '@/assets/comp.svg'
 function Index() {
 
 
@@ -56,6 +61,50 @@ function Index() {
       <div>
         <img src={selfie} alt="" className='w-full'/>
       </div>
+    </div>
+    <div className="third p-2">
+      <div className=' centre-display  lg:ml-[15rem] lg:mr-[15rem] mb-10'>
+        <h2 className='text-5xl mont font-bold'>Featured Work</h2>
+        <p className='text-2xl mont font-semibold '>A collection of projects that showcase my approach to solving complex design challenges and creating meaningful user experiences.</p>
+      </div>
+      <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 lg:ml-[5rem] lg:mr-[5rem] p-2 mb-4 lg:mb-8'>
+        <div>
+          <img src={hotel} alt=""className='w-full' />
+         
+        </div>
+        <div>
+          <img src={yoga} alt="" className='w-full'/>
+        </div>
+      </div>
+      <div className='flex justify-center mb-8'>
+        <div>
+          <img src={mobileapp} alt=""  className='w-full'/>
+           
+        </div>
+        
+      </div>
+      <div className='flex justify-center centre-display'>
+        <img src={buttonimg} alt=""  className=' mt-10 w-40'/>
+      </div>
+    </div>
+    <div className="fourth mt-8 p-2">
+      <div className='flex flex-col text-center centre-display justify-center items-center lg:ml-[8rem] lg:mr-[8rem]'>
+        <h2 className='mont text-2xl lg:text-5xl font-bold'>About Me</h2>
+        <p className='month lg:text-2xl font-semibold mt-3'>l am a skilled full stack UI/UX Designer with a passion for designing, as a user experience designer. I understand the process of creating meaningful experiences for users.  I empathize with the user to discover problems and design creative solutions. I am passionate about how design and technology can bring about change in education. This could inspire new ways of learning and bridge diverse communities</p>
+      </div>
+    </div>
+     <div className="five mt-8 p-2">
+      <div className='flex flex-col text-center centre-display justify-center items-center lg:ml-[8rem] lg:mr-[8rem]'>
+        <h2 className='mont text-2xl lg:text-5xl font-bold'>Skills & Expertise</h2>
+        <p className='month lg:text-2xl font-semibold mt-3'>A comprehensive skill set spanning the entire design process, from research to
+implementation.</p>
+      </div>
+      
+    </div>
+    <div className='mt-8'>
+        <div className='p-2 lg:ml-[5rem] lg:mr-[5rem] mb-8'>
+          <img src={comp} alt="" />
+        </div>
     </div>
     </>
   )
