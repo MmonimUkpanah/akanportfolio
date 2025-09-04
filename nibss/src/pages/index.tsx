@@ -2,10 +2,9 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import { Routes, Route, Link } from "react-router-dom";
-import './App.css'
-import selfie from './assets/picture.svg'  ;
-import button1 from './assets/button1.svg'  ;
-import button2 from './assets/button2.svg'  ;
+import selfie from '@/assets/picture.svg'
+import button1 from '@/assets/button1.svg'
+import button2 from '@/assets/button2.svg'
 function Index() {
 
 
